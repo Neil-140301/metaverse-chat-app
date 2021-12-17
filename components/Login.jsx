@@ -13,7 +13,7 @@ const Login = () => {
       >
         {/* logo */}
         <Image
-          src="/images/login-logo.jpg"
+          src="/images/logo.jpg"
           width="200"
           height="200"
           className="object-cover rounded-full "
