@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <div className="text-pink-500 sticky top-0 p-5 z-50 bg-black shadow-sm border-b-2 border-pink-700 ">
       <div className="grid grid-cols-5 lg:grid-cols-6 items-end lg:items-center ">
-        <Logo className="w-[100px] h-[100px] mx-auto hidden lg:inline-grid cursor-pointer " />
+        <Logo className="w-[75px] h-[75px] mx-auto hidden lg:inline-grid cursor-pointer " />
 
         <div className="text-left lg:text-center col-span-4 space-y-4 ">
           <div className="h-48 w-48 relative lg:mx-auto border-pink-500 border-8 rounded-full ">
