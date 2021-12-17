@@ -3,6 +3,7 @@ import { useMoralis } from 'react-moralis';
 import Header from '../components/Header';
 import Login from '../components/Login';
 import Messages from '../components/Messages';
+import Modal from '../components/Modal';
 
 export default function Home() {
   const { isAuthenticated } = useMoralis();
@@ -13,7 +14,7 @@ export default function Home() {
 
   return (
     <div
-      className="h-screen overflow-y-scroll bg-gradient-to-b from-black to-fuchsia-900 overflow-hi
+      className="h-screen overflow-y-scroll bg-gradient-to-br from-black to-fuchsia-900 overflow-hi
        "
     >
       <Head>
@@ -25,6 +26,8 @@ export default function Home() {
         <Header />
         <Messages />
       </div>
+
+      <Modal />
     </div>
   );
 }

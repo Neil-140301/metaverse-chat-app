@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { useMoralis } from 'react-moralis';
+import Logo from './Logo';
 
 const Login = () => {
   const { authenticate } = useMoralis();
@@ -8,16 +9,11 @@ const Login = () => {
     <div className="bg-black relative ">
       <div
         className="flex flex-col absolute z-50 h-[70%] items-center justify-center w-full
-        space-y-6
+        space-y-8
       "
       >
         {/* logo */}
-        <Image
-          src="/images/logo.jpg"
-          width="200"
-          height="200"
-          className="object-cover rounded-full "
-        />
+        <Logo />
 
         {/* login button */}
         <button
@@ -31,8 +27,8 @@ const Login = () => {
       <div className="w-full h-screen ">
         {/* login form */}
         <Image
-          src="https://links.papareact.com/55n"
-          // src="/images/login-bg.jpg"
+          // src="https://links.papareact.com/55n"
+          src="/images/logo.jpg"
           layout="fill"
           objectFit="cover"
         />
