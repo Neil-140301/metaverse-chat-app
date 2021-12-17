@@ -4,7 +4,7 @@ const Logo = ({ className }) => {
   return (
     <div
       className={
-        'relative h-[200px] w-[200px] rounded-full bg-gradient-to-br from-black via-gray-500 to-gray-100 ' +
+        'relative  rounded-full bg-gradient-to-br from-black via-gray-500 to-gray-100 ' +
         className
       }
     >

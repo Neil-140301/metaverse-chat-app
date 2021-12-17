@@ -13,7 +13,7 @@ const Login = () => {
       "
       >
         {/* logo */}
-        <Logo />
+        <Logo className="h-[200px] w-[200px]" />
 
         {/* login button */}
         <button

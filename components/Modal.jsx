@@ -21,7 +21,7 @@ const Modal = () => {
   };
 
   return (
-    <div className={`${modalOpen ? 'opacity-1' : 'opacity-0'}`}>
+    <div className={`${modalOpen ? 'block' : 'hidden'}`}>
       <div
         onClick={toggleModal}
         className="absolute top-0 left-0 right-0 h-screen bg-black z-[90] opacity-75  "
